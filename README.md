@@ -13,7 +13,7 @@ This project uses Machine Learning to predict road accident severity based on lo
 
 
   ##  Dataset
-The dataset used in this project is too large for direct GitHub upload (≈ 2 GB).  
+The dataset used in this project is too large for direct GitHub upload (≈ 2.8 GB).  
 You can download it from Google Drive:
 
 [Download US_Accidents_March23.csv](https://drive.google.com/file/d/1EOJc5BfG0HLJZF3xXM9LrLQakcrDlUX-/view?usp=sharing)
