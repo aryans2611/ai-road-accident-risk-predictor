@@ -1,0 +1,18 @@
+# Core libraries
+pandas
+numpy
+scikit-learn
+
+# Visualization and mapping
+folium
+streamlit
+streamlit-folium
+
+# Geolocation
+geopy
+
+# Model saving/loading
+joblib
+
+# Optional (for notebook + visualization support)
+matplotlib
