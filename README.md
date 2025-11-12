@@ -1,12 +1,11 @@
  AI Road Accident Risk Predictor
-
-Author: Aryan Singh
+#
 
  Overview
-
+#
 A machine learning project that predicts road accident severity and visualizes risk-prone routes using interactive maps.
 Built using the US Accidents (March 2023) dataset.
-
+#
  Objective
 
 To forecast accident risk based on environmental and geographical factors like:
@@ -20,13 +19,13 @@ Wind Speed
 Weather Condition
 
 Latitude / Longitude
-
+#
  Technologies Used
 
 Python 3, scikit-learn, pandas, numpy, folium, matplotlib
 
 IDE: VS Code / Google Colab
-
+#
  Model Details
 
 Algorithm: Random Forest Classifier
@@ -38,12 +37,12 @@ Outputs:
 Accident_Hotspots_Map.html — shows accident severity across locations
 
 Lucknow_Patna_Route_Risk.html — predicts risk along Lucknow → Patna route
-
+#
  How to Run
 pip install pandas numpy scikit-learn folium matplotlib
 python ai_road_accident_predictor.py
 
-
+#
  Open generated maps in your browser.
 #
  Folder Structure
