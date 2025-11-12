@@ -1,15 +1,66 @@
-#  AI Road Accident Risk Predictor
-This project uses Machine Learning to predict road accident severity based on location, weather, and visibility data.
+ AI Road Accident Risk Predictor
 
-##  Project Overview
-- Dataset: US_Accidents_March23.csv (Kaggle)
-- Model: Random Forest Classifier
-- Tools: Python, Pandas, Scikit-Learn, Folium, Google Colab
-- Accuracy: ~85-90%
+Author: Aryan Singh
 
-##  Visualizations
-- Accident hotspots map
-- Smart Route (Delhi → Agra) risk visualization
+ Overview
+
+A machine learning project that predicts road accident severity and visualizes risk-prone routes using interactive maps.
+Built using the US Accidents (March 2023) dataset.
+
+ Objective
+
+To forecast accident risk based on environmental and geographical factors like:
+
+Temperature
+
+Visibility
+
+Wind Speed
+
+Weather Condition
+
+Latitude / Longitude
+
+ Technologies Used
+
+Python 3, scikit-learn, pandas, numpy, folium, matplotlib
+
+IDE: VS Code / Google Colab
+
+ Model Details
+
+Algorithm: Random Forest Classifier
+
+Accuracy: ~87%
+
+Outputs:
+
+Accident_Hotspots_Map.html — shows accident severity across locations
+
+Lucknow_Patna_Route_Risk.html — predicts risk along Lucknow → Patna route
+
+ How to Run
+pip install pandas numpy scikit-learn folium matplotlib
+python ai_road_accident_predictor.py
+
+
+ Open generated maps in your browser.
+
+ Folder Structure
+AI Road Accident Risk Predictor/
+├── ai_road_accident_predictor.py
+├── US_Accidents_March23.csv
+├── Accident_Hotspots_Map.html
+├── Lucknow_Patna_Route_Risk.html
+└── README.md
+
+ Future Scope
+
+Live weather integration
+
+Streamlit web app
+
+Real-time route prediction
 
 
   ##  Dataset
