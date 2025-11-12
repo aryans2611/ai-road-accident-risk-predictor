@@ -45,7 +45,7 @@ python ai_road_accident_predictor.py
 
 
  Open generated maps in your browser.
-
+#
  Folder Structure
 AI Road Accident Risk Predictor/
 ├── ai_road_accident_predictor.py
@@ -53,7 +53,7 @@ AI Road Accident Risk Predictor/
 ├── Accident_Hotspots_Map.html
 ├── Lucknow_Patna_Route_Risk.html
 └── README.md
-
+#
  Future Scope
 
 Live weather integration
